@@ -14,3 +14,20 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore vendor bundle (don't keep gem files under source control)
+/vendor/bundle/
+
+# Ignore databse config
+/config/database.yml
+
+# Ignore session security file
+.secret
+
+# Ignore miscellaneous files
+/doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
